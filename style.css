@@ -1,0 +1,144 @@
+*,
+*:after,
+*:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#container{
+    max-width: 100%;
+    height: 600px;
+    text-align: center;
+    padding-top: 200px;
+    background: linear-gradient(#005AA7, #f1f1f1);
+}
+
+img{
+    border-radius: 5px;
+    width: 200px;
+    height: 100px;
+    margin-top: -100px;
+}
+
+#begin{
+    padding: 10px 14px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #bad5f1;
+    cursor: pointer;
+    border: 2px solid #028c91;
+    /* display: none; */
+    border-radius: 10px;
+    color: rgb(10, 10, 10);
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#begin:hover{
+    background-color: rgb(4, 201, 232);
+    color: mintcream;
+}
+
+#quizbox{
+    background-color: #c9ddf3;
+    width: 850px;
+    margin-left: 260px;
+    margin-top: 20px;
+    border-radius: 20px;
+	box-shadow: rgba(217, 217, 244, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 25px 20px;
+    padding-bottom: 55px;
+    display: none;
+}
+
+#quizbox h2{
+    border-bottom: 3px solid #16d0d6;
+    padding-bottom: 2px;
+}
+
+.row{
+    display: flex;
+}
+
+input{
+    background: #17202A;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+label{
+    margin-top: 20px;
+    width: -webkit-fill-available;
+    border: 1px solid #028c91;
+    border-radius: 5px;
+    padding: 8px 2px;
+    text-align: start;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    flex-grow: 5;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+label:hover{
+    background-color: rgb(4, 201, 232);
+    color: mintcream;
+}
+
+#next{
+    padding: 8px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #bad5f1;
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    float: right;
+    margin: 10px 0;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+#res{
+    background: #c9ddf3;
+    color:black;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: rgba(217, 217, 244, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 35px 30px;
+    padding-bottom: 50px;  
+    margin-left: 455px;
+    margin-top: 50px; 
+    display: none;
+} 
+
+#res h3{
+    padding-top: 10px;
+}
+
+#next:hover{
+    background-color: rgb(4, 201, 232);
+    color: mintcream;
+}
+
+footer{
+    max-width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background: linear-gradient(#005AA7, #f1f1f1);
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(39, 26, 26);
+    text-align: center;
+}

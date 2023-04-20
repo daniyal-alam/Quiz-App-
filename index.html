@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div>
+            <img src="./quiz.jpg" alt="quiz">
+        </div>
+        <button id="begin">Start Quiz</button>
+
+        <div id="quizbox">
+            <h2 class="question">Question</h2>
+            <div class="row">
+                <label for="ans1">
+                    <input type="radio" name="answer" id="ans1" class="answer">
+                    <span id="option1">Option 1</span>
+                </label><br>
+
+                <label for="ans2">
+                    <input type="radio" name="answer" id="ans2" class="answer">
+                    <span id="option2">Option 2</span>
+                </label><br>
+            </div>
+
+            <div class="row">
+                <label for="ans3">
+                    <input type="radio" name="answer" id="ans3" class="answer">
+                    <span id="option3">Option 3</span>
+                </label><br>
+
+                <label for="ans4">
+                    <input type="radio" name="answer" id="ans4" class="answer">
+                    <span id="option4">Option 4</span>
+                </label><br>
+            </div>
+
+                <button id="next">Next</button>
+            </div>
+
+            <div id="res">
+                <div id="showScore" class="scoreArea"></div>
+            </div>
+        </div>
+
+        <footer>Made by Daniyal</footer>
+
+</body>
+<script src="scripts.js"></script>
+</html>
